@@ -1,10 +1,10 @@
-/$(function() {
+$(function() {
     describe('RSS Feeds', function() {
         /* Tests that "allFeeds" is defined and populated
          */
         it('are defined', function() {
             expect(allFeeds).toBeDefined();
-            expect(allFeeds.length).toBeGreaterThan(0)
+            expect(allFeeds.length).toBeGreaterThan(0);
         });
 
 
